@@ -1,0 +1,13 @@
+.app-sidebar-primary .app-sidebar-menu .menu>.menu-item>.menu-link{
+    height: 65px !important;
+}
+
+.required:after{
+    content: '';
+}
+
+@media (min-width: 992px) {
+    .app-sidebar-primary .app-sidebar-menu .menu > .menu-item {
+        margin-bottom: 0;
+    }
+}
