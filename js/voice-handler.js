@@ -15,9 +15,9 @@
             }
         }, options );
 
-        /** Template Voice**/
+        /** Template Voice 136 x 189**/
         var tpl = `
-            <div style='position:fixed; text-align: center; background: #fff; top: 49%; left: 49%;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);' id="afresto-voice">
+            <div style='position:fixed; text-align: center; background: #fff; top: calc(50% - 95px); left: calc(50% - 68px);box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);' id="afresto-voice">
                 <div style="padding: 20px">
                     Mendengarkan suara<br>
                     Silahkan berbicara<br/>
