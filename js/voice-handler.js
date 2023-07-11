@@ -8,7 +8,7 @@
 
                 if(editorType === 'tinymce'){
                     var precontent = tinyMCE.get(editorTarget).getContent()
-                    tinyMCE.get(editorTargetId).setContent(precontent + final_transcript)
+                    tinyMCE.get(editorTarget).setContent(precontent + final_transcript)
                 }else{
                     $(editorTarget).val(final_transcript);
                 }
