@@ -4,6 +4,7 @@
 
 .required:after{
     content: '';
+    display: none;
 }
 
 @media (min-width: 992px) {
