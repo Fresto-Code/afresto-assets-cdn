@@ -11,3 +11,52 @@
         margin-bottom: 0;
     }
 }
+.pjax-loader{
+    display: none;
+}
+.pjax-loader-container{
+    top: calc(50% - 60px);
+    left: calc(50% - 60px);
+    width: 120px;
+    height: 120px;
+    z-index: 99999;
+}
+.pjax-loader-icon{
+    background-image: url('//fresto-code.github.io/afresto-assets-cdn/logo/afresto.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: var(--bs-drawer-overlay-bg-color);
+    padding: 10px;
+    border-radius: 50%;
+}
+.pjax-loader-animate {
+    border: 16px solid transparent;
+    border-radius: 50%;
+    border-top: 16px solid #e89603;
+    border-bottom: 16px solid #006617;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 1.2s linear infinite;
+    width: 100px;
+    height: 100px;
+}
+/* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.form-control.validating{
+    padding-right: calc(1.5em + 1.55rem);
+    background-image: url('https://fresto-code.github.io/afresto-assets-cdn/image/animation/loading.gif');
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.3875rem) center;
+    background-size: calc(0.75em + 0.775rem) calc(0.75em + 0.775rem);
+}
+textarea.form-control.validating {
+    padding-right: calc(1.5em + 1.55rem);
+    background-position: top calc(0.375em + 0.3875rem) right calc(0.375em + 0.3875rem);
+}
