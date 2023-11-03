@@ -61,3 +61,13 @@ textarea.form-control.validating {
     padding-right: calc(1.5em + 1.55rem);
     background-position: top calc(0.375em + 0.3875rem) right calc(0.375em + 0.3875rem);
 }
+@media only screen and (min-width: 600px) {
+    .afresto-voice-result {
+        border-top: none !important;
+        width: 600px;
+        bottom: 10px !important;
+        left: calc(100vw / 2 - 310px) !important;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+}
