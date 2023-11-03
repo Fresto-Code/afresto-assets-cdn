@@ -22,6 +22,7 @@
                     Mendengarkan suara<br>
                     Silahkan berbicara<br/>
                     <img src="https://fresto-code.github.io/afresto-assets-cdn/image/animation/sound.gif">
+                    <br/>
                 </div>
                 <div style="position: fixed; bottom: 0; left: 0; right: 0; background: #fff; padding: 10px; border-top: 2px solid #ccc; text-align: left">
                     <div style="display: flex">
