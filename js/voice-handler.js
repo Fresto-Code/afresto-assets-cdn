@@ -10,7 +10,7 @@
                     var precontent = tinyMCE.get(editorTarget).getContent()
                     tinyMCE.get(editorTarget).setContent(precontent + final_transcript)
                 }else{
-                    $(editorTarget).val(final_transcript);
+                    $(editorTarget).val(final_transcript).trigger('change').focus();
                 }
             }
         }, options );
@@ -95,6 +95,7 @@
             el = $(this);
             recognition.start();
         })
+        console.log(this)
         return this;
     }
 }(jQuery))
