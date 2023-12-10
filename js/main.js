@@ -6,8 +6,16 @@ $(document)
     $(".pjax-loader").hide();
     
     try {
+      $('[data-control="select2"].select2-hidden-accessible')
+      .removeClass('select2-hidden-accessible')
+      .next().remove();
+      $('[data-control="select2"]').select2()
+    } catch (e) {}
+
+    try {
       $(".drawer-overlay").remove();
-      $('[data-control="select2"].select2-hidden-accessible').select2("destroy")
       KTComponents.init();
     } catch (e) {}
   });
+
+  
