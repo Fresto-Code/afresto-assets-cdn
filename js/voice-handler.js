@@ -95,7 +95,6 @@
             el = $(this);
             recognition.start();
         })
-        console.log(this)
         return this;
     }
 }(jQuery))
