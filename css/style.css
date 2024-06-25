@@ -71,3 +71,18 @@ textarea.form-control.validating {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
+
+[data-kt-drawer="on"] .bottom-sheet-wrapper {
+    z-index: 1 !important;
+}
+.bottom-sheet-wrapper {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media (min-width: 992px) {
+    [data-kt-app-sidebar-fixed=true] .bottom-sheet-wrapper {
+        margin-left: calc(var(--bs-app-sidebar-width) + var(--bs-app-sidebar-gap-start, 0px) + var(--bs-app-sidebar-gap-end, 0px) + 28px);
+        margin-right: 28px;
+    }
+}
