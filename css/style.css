@@ -89,3 +89,9 @@ textarea.form-control.validating {
 [data-kt-sticky-enabled="true"] .hidden-on-sticky-mode {
     display: none !important;
 }
+.show-on-sticky-mode {
+    display: none !important;
+}
+[data-kt-sticky-enabled="true"] .show-on-sticky-mode {
+    display: block !important;
+}
