@@ -86,3 +86,6 @@ textarea.form-control.validating {
         margin-right: 28px;
     }
 }
+[data-kt-sticky-enabled="true"] .hidden-on-sticky-mode {
+    display: none !important;
+}

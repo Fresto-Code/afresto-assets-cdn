@@ -18,4 +18,4 @@ $(document)
     } catch (e) {}
   });
 
-  
+  $("[data-persistent-size=1]").height($("[data-persistent-size=1]").height())
