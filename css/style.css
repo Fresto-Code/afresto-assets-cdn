@@ -75,10 +75,6 @@ textarea.form-control.validating {
 [data-kt-drawer="on"] .bottom-sheet-wrapper {
     z-index: 1 !important;
 }
-.bottom-sheet-wrapper {
-    margin-left: 20px;
-    margin-right: 20px;
-}
 
 @media (min-width: 992px) {
     [data-kt-app-sidebar-fixed=true] .bottom-sheet-wrapper {
