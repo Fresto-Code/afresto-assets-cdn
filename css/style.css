@@ -76,7 +76,12 @@ textarea.form-control.validating {
     z-index: 1 !important;
 }
 
-@media (min-width: 1470px) {
+@media (min-width: 992px) and (max-width: 1734px) {
+    [data-kt-app-sidebar-fixed=true] .bottom-sheet-wrapper {
+        margin-left: calc(var(--bs-app-sidebar-width) + var(--bs-app-sidebar-gap-start, 0px) + var(--bs-app-sidebar-gap-end, 0px));
+    }
+}
+@media (min-width: 1735px) {
     [data-kt-app-sidebar-fixed=true] .bottom-sheet-wrapper {
         margin-left: calc(var(--bs-app-sidebar-width) + var(--bs-app-sidebar-gap-start, 0px) + var(--bs-app-sidebar-gap-end, 0px) + 28px);
         margin-right: 28px;
