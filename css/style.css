@@ -75,6 +75,9 @@ textarea.form-control.validating {
 [data-kt-drawer="on"] .bottom-sheet-wrapper {
     z-index: 1 !important;
 }
+body[data-kt-drawer="on"]{
+    overflow-y: hidden;
+}
 
 @media (min-width: 992px) and (max-width: 1734px) {
     [data-kt-app-sidebar-fixed=true] .bottom-sheet-wrapper {
@@ -98,7 +101,4 @@ textarea.form-control.validating {
 }
 [data-kt-sticky-enabled="true"] .flex-on-sticky-mode {
     display: flex !important;
-}
-body[data-kt-drawer="on"]{
-    overflow-y: hidden;
 }
