@@ -999,7 +999,7 @@ if (! ("JSON" in window && window.JSON)){JSON={}}(function(){function f(n){retur
 })(window, document, (typeof jQuery === 'undefined') ? {} : jQuery);
 
 var connection = window.seamless.connect({
-    container: 'body.preview',
+    container: 'body',
     allowStyleInjection: true
 });
 jQuery(window).on('load',function() {
